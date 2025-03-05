@@ -1,7 +1,9 @@
 use std::{char, fmt};
 
 use crate::def::{
-    application_id, ccsds_v, get_time, has_secondary_header, packet_type, seq_count, seq_flags, CCSDSPrimaryHeader, CCSDSSpacePacket, CCSDSVersion, CFEMSGMessage, CFEMSGTelemetryHeader, CFEMSGTelemetrySecondaryHeader, DSHKPacket, DSHKTlmPayload, PacketType
+    application_id, ccsds_v, get_time, has_secondary_header, packet_type, seq_count, seq_flags,
+    CCSDSPrimaryHeader, CCSDSSpacePacket, CCSDSVersion, CFEMSGMessage, CFEMSGTelemetryHeader,
+    CFEMSGTelemetrySecondaryHeader, DSHKPacket, DSHKTlmPayload, PacketType,
 };
 
 impl fmt::Display for DSHKTlmPayload {
@@ -23,7 +25,6 @@ impl fmt::Display for DSHKTlmPayload {
         )?;
         writeln!(f, "filter_tbl_err_counter: {}", self.filter_tbl_err_counter)?;
         writeln!(f, "app_enable_state: {}", self.app_enable_state)?;
-        writeln!(f, "spare8: {}", self.spare8)?;
         writeln!(f, "file_write_counter: {}", self.file_write_counter)?;
         writeln!(f, "file_write_err_counter: {}", self.file_write_err_counter)?;
         writeln!(f, "file_update_counter: {}", self.file_update_counter)?;
@@ -117,7 +118,7 @@ impl fmt::Display for CCSDSVersion {
         match self {
             CCSDSVersion::Ver1 => {
                 writeln!(f, "version 1")
-            },
+            }
             CCSDSVersion::Ver2 => {
                 writeln!(f, "version 2")
             }
@@ -129,7 +130,7 @@ impl fmt::Display for PacketType {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         match self {
             PacketType::TLM => writeln!(f, "telemetry"),
-            PacketType::CMD => writeln!(f, "command")
+            PacketType::CMD => writeln!(f, "command"),
         }
     }
 }

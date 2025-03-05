@@ -1,8 +1,11 @@
 use std::ffi::c_char;
 
-use crate::def::{CCSDSPrimaryHeader, CCSDSSpacePacket, CFEMSGMessage, CFEMSGTelemetryHeader, CFEMSGTelemetrySecondaryHeader, DSHKPacket, DSHKTlmPayload, OS_MAX_PATH_LEN};
-use nom::number::complete::{u8, be_u16, be_u32};
+use crate::def::{
+    CCSDSPrimaryHeader, CCSDSSpacePacket, CFEMSGMessage, CFEMSGTelemetryHeader,
+    CFEMSGTelemetrySecondaryHeader, DSHKPacket, DSHKTlmPayload, OS_MAX_PATH_LEN,
+};
 use nom::bytes::streaming::take;
+use nom::number::complete::{be_u16, be_u32, u8};
 use nom::{Err, IResult, Needed};
 
 pub fn parse_dshk_packet(data: &[u8]) -> IResult<&[u8], DSHKPacket> {
@@ -10,7 +13,7 @@ pub fn parse_dshk_packet(data: &[u8]) -> IResult<&[u8], DSHKPacket> {
     let (data, payload) = parse_tlm_payload(data)?;
     let dshk_packet = DSHKPacket {
         telemetry_header,
-        payload
+        payload,
     };
     Ok((data, dshk_packet))
 }
@@ -57,7 +60,7 @@ fn parse_tlm_payload(data: &[u8]) -> IResult<&[u8], DSHKTlmPayload> {
         ignored_pkt_counter,
         filtered_pkt_counter,
         passed_pkt_counter,
-        filter_tbl_filename
+        filter_tbl_filename,
     };
     Ok((data, dshk_tlm_payload))
 }
@@ -91,17 +94,19 @@ fn parse_cfe_msg_message(data: &[u8]) -> IResult<&[u8], CFEMSGMessage> {
 fn parse_ccsds_space_packet(data: &[u8]) -> IResult<&[u8], CCSDSSpacePacket> {
     let (data, pri) = parse_ccsds_primary_header(data)?;
     let length = pri.get_length() as usize;
-    (length <= data.len()).then_some(()).ok_or(
-        Err::Incomplete(Needed::new(length))
-    )?;
+    (length <= data.len())
+        .then_some(())
+        .ok_or(Err::Incomplete(Needed::new(length)))?;
     let ccsds_s_packet = CCSDSSpacePacket { pri };
     Ok((data, ccsds_s_packet))
 }
 
-fn parse_cfe_msg_telemetry_secondary_header(data: &[u8]) -> IResult<&[u8], CFEMSGTelemetrySecondaryHeader> {
+fn parse_cfe_msg_telemetry_secondary_header(
+    data: &[u8],
+) -> IResult<&[u8], CFEMSGTelemetrySecondaryHeader> {
     let (data, time) = take(6_usize)(data)?;
     let time = time.try_into().unwrap();
-    let cse_msg_t_s_header = CFEMSGTelemetrySecondaryHeader {time};
+    let cse_msg_t_s_header = CFEMSGTelemetrySecondaryHeader { time };
     Ok((data, cse_msg_t_s_header))
 }
 
@@ -117,7 +122,7 @@ fn parse_ccsds_primary_header(data: &[u8]) -> IResult<&[u8], CCSDSPrimaryHeader>
     let ccsds_p_header = CCSDSPrimaryHeader {
         stream_id,
         sequence,
-        length
+        length,
     };
     Ok((data, ccsds_p_header))
 }

@@ -1,11 +1,11 @@
 pub const OS_MAX_PATH_LEN: usize = 32;
-use std::os::raw::c_char;
 use chrono::{DateTime, Duration, TimeZone, Utc};
+use std::os::raw::c_char;
 
-// https://github.com/nasa/DS/blob/main/fsw/inc/ds_msg.h
-// https://github.com/nasa/cFE/blob/main/modules/msg/option_inc/default_cfe_msg_hdr_pri.h
-// https://github.com/nasa/cFE/blob/main/modules/msg/option_inc/default_cfe_msg_sechdr.h
-// https://github.com/nasa/cFE/blob/main/modules/msg/fsw/inc/ccsds_hdr.h
+// https://github.com/nasa/DS/blob/7404b975be4b4a2e2a51eab4c1fa6a9b7a8630c4/fsw/inc/ds_msg.h
+// https://github.com/nasa/cFE/blob/4b3fedd971d704ce4782f62ad92f9f0a56ff8eaa/modules/msg/option_inc/default_cfe_msg_hdr_pri.h
+// https://github.com/nasa/cFE/blob/4b3fedd971d704ce4782f62ad92f9f0a56ff8eaa/modules/msg/option_inc/default_cfe_msg_sechdr.h
+// https://github.com/nasa/cFE/blob/4b3fedd971d704ce4782f62ad92f9f0a56ff8eaa/modules/msg/fsw/inc/ccsds_hdr.h
 
 #[derive(Debug)]
 pub struct DSHKTlmPayload {
@@ -94,7 +94,10 @@ pub struct CFEMSGTelemetrySecondaryHeader {
 
 impl CFEMSGTelemetrySecondaryHeader {
     pub fn get_seconds_and_subseconds(&self) -> (u32, u16) {
-        let seconds = (self.time[0] as u32) << 24 | (self.time[1] as u32) << 16 | (self.time[2] as u32) << 8 | (self.time[3] as u32); 
+        let seconds = (self.time[0] as u32) << 24
+            | (self.time[1] as u32) << 16
+            | (self.time[2] as u32) << 8
+            | (self.time[3] as u32);
         let subseconds = (self.time[4] as u16) << 8 | (self.time[5] as u16);
         (seconds, subseconds)
     }
@@ -109,9 +112,19 @@ const BASE_SECONDS: u32 = 55;
 const BASE_MILISEC: Duration = Duration::milliseconds(816);
 
 pub fn get_time(seconds: u32, subseconds: u16) -> DateTime<Utc> {
-    let base_time = Utc.with_ymd_and_hms(BASE_YEAR, BASE_MONTH, BASE_DAY, BASE_HOUR, BASE_MINUTE, BASE_SECONDS).unwrap();
+    let base_time = Utc
+        .with_ymd_and_hms(
+            BASE_YEAR,
+            BASE_MONTH,
+            BASE_DAY,
+            BASE_HOUR,
+            BASE_MINUTE,
+            BASE_SECONDS,
+        )
+        .unwrap();
     let base_time = base_time + BASE_MILISEC;
-    let added_duration = Duration::seconds(seconds as i64) + Duration::milliseconds(subseconds as i64);
+    let added_duration =
+        Duration::seconds(seconds as i64) + Duration::milliseconds(subseconds as i64);
     base_time + added_duration
 }
 
@@ -158,7 +171,7 @@ pub fn packet_type(stream_id: u16) -> PacketType {
     let packet_type_num = (stream_id & 0x1000) >> 12;
     if packet_type_num == 1 {
         PacketType::CMD
-    }  else if packet_type_num == 0 {
+    } else if packet_type_num == 0 {
         PacketType::TLM
     } else {
         panic!("Unknown type")
@@ -173,15 +186,13 @@ pub fn seq_flags(sequence: u16) -> u16 {
     (sequence & 0xC000) >> 14
 }
 
-
-
 impl CCSDSPrimaryHeader {
     pub fn get_stream_id(&self) -> u16 {
         (self.stream_id[0] as u16) << 8 | self.stream_id[1] as u16
     }
 
     pub fn get_seq(&self) -> u16 {
-        (self.sequence[0] as u16) << 8 | self.sequence[1] as u16 
+        (self.sequence[0] as u16) << 8 | self.sequence[1] as u16
     }
 
     pub fn get_length(&self) -> u16 {
@@ -194,7 +205,6 @@ impl CCSDSPrimaryHeader {
     }
 }
 
-
 #[derive(Debug)]
 pub enum CCSDSVersion {
     Ver1,
@@ -204,6 +214,5 @@ pub enum CCSDSVersion {
 #[derive(Debug)]
 pub enum PacketType {
     TLM,
-    CMD
+    CMD,
 }
-

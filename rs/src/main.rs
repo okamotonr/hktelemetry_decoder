@@ -9,7 +9,7 @@ mod fmt;
 
 fn main() {
     // TODO: use clap
-    let file_path = env::args().nth(1).expect("file path");
+    let file_path = env::args().nth(1).expect("file path required");
     let ds_tlm: Vec<u8> = fs::read(file_path).expect("cannot open ds_tlm");
     let mut data: &[u8] = &ds_tlm;
     loop {
