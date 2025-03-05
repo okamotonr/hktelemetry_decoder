@@ -100,8 +100,17 @@ impl CFEMSGTelemetrySecondaryHeader {
     }
 }
 
+const BASE_YEAR: i32 = 2000;
+const BASE_MONTH: u32 = 1;
+const BASE_DAY: u32 = 1;
+const BASE_HOUR: u32 = 11;
+const BASE_MINUTE: u32 = 58;
+const BASE_SECONDS: u32 = 55;
+const BASE_MILISEC: Duration = Duration::milliseconds(816);
+
 pub fn get_time(seconds: u32, subseconds: u16) -> DateTime<Utc> {
-    let base_time = Utc.ymd(2000, 1, 1).and_hms_milli(11, 58, 55, 816);
+    let base_time = Utc.with_ymd_and_hms(BASE_YEAR, BASE_MONTH, BASE_DAY, BASE_HOUR, BASE_MINUTE, BASE_SECONDS).unwrap();
+    let base_time = base_time + BASE_MILISEC;
     let added_duration = Duration::seconds(seconds as i64) + Duration::milliseconds(subseconds as i64);
     base_time + added_duration
 }
@@ -182,13 +191,6 @@ impl CCSDSPrimaryHeader {
     fn has_secondary_header(&self) -> bool {
         let stream_id = self.get_stream_id();
         has_secondary_header(stream_id)
-    }
-
-    pub fn interp_sequence(&self) -> (u16, u16) {
-        let sequence = self.get_seq();
-        let seq_count = sequence & 0x3FFF;
-        let seg_flags = (sequence & 0xC000) >> 14;
-        (seq_count, seg_flags)
     }
 }
 

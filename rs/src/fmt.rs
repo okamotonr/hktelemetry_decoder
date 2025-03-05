@@ -42,7 +42,7 @@ impl fmt::Display for DSHKTlmPayload {
 
 impl fmt::Display for DSHKPacket {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        writeln!(f, "telemetry_header")?;
+        writeln!(f, "telemetry_header:")?;
         writeln!(f, "{}", self.telemetry_header)?;
         writeln!(f, "payload:")?;
         write!(f, "{}", self.payload)
