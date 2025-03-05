@@ -1,0 +1,18 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-g",
+      "-o",
+      "decoder",
+      "src/main.c"
+    ],
+    "directory": "/home/ryoj/github.com/okamotonr/hktelemetry_decoder/c",
+    "file": "/home/ryoj/github.com/okamotonr/hktelemetry_decoder/c/src/main.c",
+    "output": "/home/ryoj/github.com/okamotonr/hktelemetry_decoder/c/decoder"
+  }
+]

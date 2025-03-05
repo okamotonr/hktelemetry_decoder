@@ -24,6 +24,7 @@ pub struct DSHKTlmPayload {
     /// Application enable/disable state
     pub app_enable_state: u8,
     /// Structure alignment padding
+    #[allow(dead_code)]
     pub spare8: u8,
     /// Count of good destination file writes */
     pub file_write_counter: u16,
