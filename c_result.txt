@@ -1,0 +1,3100 @@
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 1
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212381
+Subseconds: 38076
+Date: 2023-12-07 09:12:34.892 UTC
+Payload:
+CmdAcceptedCounter: 1
+CmdRejectedCounter: 100
+DestTblLoadCounter: 200
+DestTblErrCounter: 255
+FilterTblLoadCounter: 150
+FilterTblErrCounter: 239
+AppEnableState: 1
+FileWriteCounter: 741
+FileWriteErrCounter: 61439
+FileUpdateCounter: 57095
+FileUpdateErrCounter: 52991
+DisabledPktCounter: 31
+IgnoredPktCounter: 4026531839
+FilteredPktCounter: 3758096383
+PassedPktCounter: 3489661624
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 2
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212382
+Subseconds: 38076
+Date: 2023-12-07 09:12:35.892 UTC
+Payload:
+CmdAcceptedCounter: 2
+CmdRejectedCounter: 99
+DestTblLoadCounter: 201
+DestTblErrCounter: 254
+FilterTblLoadCounter: 151
+FilterTblErrCounter: 238
+AppEnableState: 1
+FileWriteCounter: 748
+FileWriteErrCounter: 61438
+FileUpdateCounter: 57096
+FileUpdateErrCounter: 52990
+DisabledPktCounter: 32
+IgnoredPktCounter: 4026531838
+FilteredPktCounter: 3758096384
+PassedPktCounter: 3489661631
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 3
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212383
+Subseconds: 38076
+Date: 2023-12-07 09:12:36.892 UTC
+Payload:
+CmdAcceptedCounter: 3
+CmdRejectedCounter: 98
+DestTblLoadCounter: 202
+DestTblErrCounter: 253
+FilterTblLoadCounter: 152
+FilterTblErrCounter: 237
+AppEnableState: 1
+FileWriteCounter: 754
+FileWriteErrCounter: 61437
+FileUpdateCounter: 57097
+FileUpdateErrCounter: 52989
+DisabledPktCounter: 33
+IgnoredPktCounter: 4026531837
+FilteredPktCounter: 3758096385
+PassedPktCounter: 3489661637
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 4
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212384
+Subseconds: 38076
+Date: 2023-12-07 09:12:37.892 UTC
+Payload:
+CmdAcceptedCounter: 4
+CmdRejectedCounter: 97
+DestTblLoadCounter: 203
+DestTblErrCounter: 252
+FilterTblLoadCounter: 153
+FilterTblErrCounter: 236
+AppEnableState: 1
+FileWriteCounter: 760
+FileWriteErrCounter: 61436
+FileUpdateCounter: 57098
+FileUpdateErrCounter: 52988
+DisabledPktCounter: 34
+IgnoredPktCounter: 4026531836
+FilteredPktCounter: 3758096386
+PassedPktCounter: 3489661643
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 5
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212385
+Subseconds: 38076
+Date: 2023-12-07 09:12:38.892 UTC
+Payload:
+CmdAcceptedCounter: 5
+CmdRejectedCounter: 96
+DestTblLoadCounter: 204
+DestTblErrCounter: 251
+FilterTblLoadCounter: 154
+FilterTblErrCounter: 235
+AppEnableState: 1
+FileWriteCounter: 766
+FileWriteErrCounter: 61435
+FileUpdateCounter: 57099
+FileUpdateErrCounter: 52987
+DisabledPktCounter: 35
+IgnoredPktCounter: 4026531835
+FilteredPktCounter: 3758096387
+PassedPktCounter: 3489661649
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 6
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212386
+Subseconds: 38076
+Date: 2023-12-07 09:12:39.892 UTC
+Payload:
+CmdAcceptedCounter: 6
+CmdRejectedCounter: 95
+DestTblLoadCounter: 205
+DestTblErrCounter: 250
+FilterTblLoadCounter: 155
+FilterTblErrCounter: 234
+AppEnableState: 1
+FileWriteCounter: 772
+FileWriteErrCounter: 61434
+FileUpdateCounter: 57100
+FileUpdateErrCounter: 52986
+DisabledPktCounter: 36
+IgnoredPktCounter: 4026531834
+FilteredPktCounter: 3758096388
+PassedPktCounter: 3489661655
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 7
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212387
+Subseconds: 38076
+Date: 2023-12-07 09:12:40.892 UTC
+Payload:
+CmdAcceptedCounter: 7
+CmdRejectedCounter: 94
+DestTblLoadCounter: 206
+DestTblErrCounter: 249
+FilterTblLoadCounter: 156
+FilterTblErrCounter: 233
+AppEnableState: 1
+FileWriteCounter: 778
+FileWriteErrCounter: 61433
+FileUpdateCounter: 57101
+FileUpdateErrCounter: 52985
+DisabledPktCounter: 37
+IgnoredPktCounter: 4026531833
+FilteredPktCounter: 3758096389
+PassedPktCounter: 3489661661
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 8
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212388
+Subseconds: 38076
+Date: 2023-12-07 09:12:41.892 UTC
+Payload:
+CmdAcceptedCounter: 8
+CmdRejectedCounter: 93
+DestTblLoadCounter: 207
+DestTblErrCounter: 248
+FilterTblLoadCounter: 157
+FilterTblErrCounter: 232
+AppEnableState: 1
+FileWriteCounter: 784
+FileWriteErrCounter: 61432
+FileUpdateCounter: 57102
+FileUpdateErrCounter: 52984
+DisabledPktCounter: 38
+IgnoredPktCounter: 4026531832
+FilteredPktCounter: 3758096390
+PassedPktCounter: 3489661667
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 9
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212389
+Subseconds: 38076
+Date: 2023-12-07 09:12:42.892 UTC
+Payload:
+CmdAcceptedCounter: 9
+CmdRejectedCounter: 92
+DestTblLoadCounter: 208
+DestTblErrCounter: 247
+FilterTblLoadCounter: 158
+FilterTblErrCounter: 231
+AppEnableState: 1
+FileWriteCounter: 790
+FileWriteErrCounter: 61431
+FileUpdateCounter: 57103
+FileUpdateErrCounter: 52983
+DisabledPktCounter: 39
+IgnoredPktCounter: 4026531831
+FilteredPktCounter: 3758096391
+PassedPktCounter: 3489661673
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 10
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212390
+Subseconds: 38076
+Date: 2023-12-07 09:12:43.892 UTC
+Payload:
+CmdAcceptedCounter: 10
+CmdRejectedCounter: 91
+DestTblLoadCounter: 209
+DestTblErrCounter: 246
+FilterTblLoadCounter: 159
+FilterTblErrCounter: 230
+AppEnableState: 1
+FileWriteCounter: 796
+FileWriteErrCounter: 61430
+FileUpdateCounter: 57104
+FileUpdateErrCounter: 52982
+DisabledPktCounter: 40
+IgnoredPktCounter: 4026531830
+FilteredPktCounter: 3758096392
+PassedPktCounter: 3489661679
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 11
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212391
+Subseconds: 38076
+Date: 2023-12-07 09:12:44.892 UTC
+Payload:
+CmdAcceptedCounter: 11
+CmdRejectedCounter: 90
+DestTblLoadCounter: 210
+DestTblErrCounter: 245
+FilterTblLoadCounter: 160
+FilterTblErrCounter: 229
+AppEnableState: 1
+FileWriteCounter: 802
+FileWriteErrCounter: 61429
+FileUpdateCounter: 57105
+FileUpdateErrCounter: 52981
+DisabledPktCounter: 41
+IgnoredPktCounter: 4026531829
+FilteredPktCounter: 3758096393
+PassedPktCounter: 3489661685
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 12
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212392
+Subseconds: 38076
+Date: 2023-12-07 09:12:45.892 UTC
+Payload:
+CmdAcceptedCounter: 12
+CmdRejectedCounter: 89
+DestTblLoadCounter: 211
+DestTblErrCounter: 244
+FilterTblLoadCounter: 161
+FilterTblErrCounter: 228
+AppEnableState: 1
+FileWriteCounter: 808
+FileWriteErrCounter: 61428
+FileUpdateCounter: 57106
+FileUpdateErrCounter: 52980
+DisabledPktCounter: 42
+IgnoredPktCounter: 4026531828
+FilteredPktCounter: 3758096394
+PassedPktCounter: 3489661691
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 13
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212393
+Subseconds: 38076
+Date: 2023-12-07 09:12:46.892 UTC
+Payload:
+CmdAcceptedCounter: 13
+CmdRejectedCounter: 88
+DestTblLoadCounter: 212
+DestTblErrCounter: 243
+FilterTblLoadCounter: 162
+FilterTblErrCounter: 227
+AppEnableState: 1
+FileWriteCounter: 814
+FileWriteErrCounter: 61427
+FileUpdateCounter: 57107
+FileUpdateErrCounter: 52979
+DisabledPktCounter: 43
+IgnoredPktCounter: 4026531827
+FilteredPktCounter: 3758096395
+PassedPktCounter: 3489661697
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 14
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212394
+Subseconds: 38076
+Date: 2023-12-07 09:12:47.892 UTC
+Payload:
+CmdAcceptedCounter: 14
+CmdRejectedCounter: 87
+DestTblLoadCounter: 213
+DestTblErrCounter: 242
+FilterTblLoadCounter: 163
+FilterTblErrCounter: 226
+AppEnableState: 1
+FileWriteCounter: 820
+FileWriteErrCounter: 61426
+FileUpdateCounter: 57108
+FileUpdateErrCounter: 52978
+DisabledPktCounter: 44
+IgnoredPktCounter: 4026531826
+FilteredPktCounter: 3758096396
+PassedPktCounter: 3489661703
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 15
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212395
+Subseconds: 38076
+Date: 2023-12-07 09:12:48.892 UTC
+Payload:
+CmdAcceptedCounter: 15
+CmdRejectedCounter: 86
+DestTblLoadCounter: 214
+DestTblErrCounter: 241
+FilterTblLoadCounter: 164
+FilterTblErrCounter: 225
+AppEnableState: 1
+FileWriteCounter: 826
+FileWriteErrCounter: 61425
+FileUpdateCounter: 57109
+FileUpdateErrCounter: 52977
+DisabledPktCounter: 45
+IgnoredPktCounter: 4026531825
+FilteredPktCounter: 3758096397
+PassedPktCounter: 3489661709
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 16
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212396
+Subseconds: 38076
+Date: 2023-12-07 09:12:49.892 UTC
+Payload:
+CmdAcceptedCounter: 16
+CmdRejectedCounter: 85
+DestTblLoadCounter: 215
+DestTblErrCounter: 240
+FilterTblLoadCounter: 165
+FilterTblErrCounter: 224
+AppEnableState: 1
+FileWriteCounter: 835
+FileWriteErrCounter: 61424
+FileUpdateCounter: 57111
+FileUpdateErrCounter: 52976
+DisabledPktCounter: 46
+IgnoredPktCounter: 4026531824
+FilteredPktCounter: 3758096398
+PassedPktCounter: 3489661715
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 17
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212397
+Subseconds: 38076
+Date: 2023-12-07 09:12:50.892 UTC
+Payload:
+CmdAcceptedCounter: 17
+CmdRejectedCounter: 84
+DestTblLoadCounter: 216
+DestTblErrCounter: 239
+FilterTblLoadCounter: 166
+FilterTblErrCounter: 223
+AppEnableState: 1
+FileWriteCounter: 841
+FileWriteErrCounter: 61423
+FileUpdateCounter: 57112
+FileUpdateErrCounter: 52975
+DisabledPktCounter: 47
+IgnoredPktCounter: 4026531823
+FilteredPktCounter: 3758096399
+PassedPktCounter: 3489661721
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 18
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212398
+Subseconds: 38076
+Date: 2023-12-07 09:12:51.892 UTC
+Payload:
+CmdAcceptedCounter: 18
+CmdRejectedCounter: 83
+DestTblLoadCounter: 217
+DestTblErrCounter: 238
+FilterTblLoadCounter: 167
+FilterTblErrCounter: 222
+AppEnableState: 1
+FileWriteCounter: 847
+FileWriteErrCounter: 61422
+FileUpdateCounter: 57113
+FileUpdateErrCounter: 52974
+DisabledPktCounter: 48
+IgnoredPktCounter: 4026531822
+FilteredPktCounter: 3758096400
+PassedPktCounter: 3489661727
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 19
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212399
+Subseconds: 38076
+Date: 2023-12-07 09:12:52.892 UTC
+Payload:
+CmdAcceptedCounter: 19
+CmdRejectedCounter: 82
+DestTblLoadCounter: 218
+DestTblErrCounter: 237
+FilterTblLoadCounter: 168
+FilterTblErrCounter: 221
+AppEnableState: 1
+FileWriteCounter: 853
+FileWriteErrCounter: 61421
+FileUpdateCounter: 57114
+FileUpdateErrCounter: 52973
+DisabledPktCounter: 49
+IgnoredPktCounter: 4026531821
+FilteredPktCounter: 3758096401
+PassedPktCounter: 3489661733
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 20
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212400
+Subseconds: 38076
+Date: 2023-12-07 09:12:53.892 UTC
+Payload:
+CmdAcceptedCounter: 20
+CmdRejectedCounter: 81
+DestTblLoadCounter: 219
+DestTblErrCounter: 236
+FilterTblLoadCounter: 169
+FilterTblErrCounter: 220
+AppEnableState: 1
+FileWriteCounter: 859
+FileWriteErrCounter: 61420
+FileUpdateCounter: 57115
+FileUpdateErrCounter: 52972
+DisabledPktCounter: 50
+IgnoredPktCounter: 4026531820
+FilteredPktCounter: 3758096402
+PassedPktCounter: 3489661739
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 21
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212401
+Subseconds: 38076
+Date: 2023-12-07 09:12:54.892 UTC
+Payload:
+CmdAcceptedCounter: 21
+CmdRejectedCounter: 80
+DestTblLoadCounter: 220
+DestTblErrCounter: 235
+FilterTblLoadCounter: 170
+FilterTblErrCounter: 219
+AppEnableState: 1
+FileWriteCounter: 865
+FileWriteErrCounter: 61419
+FileUpdateCounter: 57116
+FileUpdateErrCounter: 52971
+DisabledPktCounter: 51
+IgnoredPktCounter: 4026531819
+FilteredPktCounter: 3758096403
+PassedPktCounter: 3489661745
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 22
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212402
+Subseconds: 38076
+Date: 2023-12-07 09:12:55.892 UTC
+Payload:
+CmdAcceptedCounter: 22
+CmdRejectedCounter: 79
+DestTblLoadCounter: 221
+DestTblErrCounter: 234
+FilterTblLoadCounter: 171
+FilterTblErrCounter: 218
+AppEnableState: 1
+FileWriteCounter: 871
+FileWriteErrCounter: 61418
+FileUpdateCounter: 57117
+FileUpdateErrCounter: 52970
+DisabledPktCounter: 52
+IgnoredPktCounter: 4026531818
+FilteredPktCounter: 3758096404
+PassedPktCounter: 3489661751
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 23
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212403
+Subseconds: 38076
+Date: 2023-12-07 09:12:56.892 UTC
+Payload:
+CmdAcceptedCounter: 23
+CmdRejectedCounter: 78
+DestTblLoadCounter: 222
+DestTblErrCounter: 233
+FilterTblLoadCounter: 172
+FilterTblErrCounter: 217
+AppEnableState: 1
+FileWriteCounter: 877
+FileWriteErrCounter: 61417
+FileUpdateCounter: 57118
+FileUpdateErrCounter: 52969
+DisabledPktCounter: 53
+IgnoredPktCounter: 4026531817
+FilteredPktCounter: 3758096405
+PassedPktCounter: 3489661757
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 24
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212404
+Subseconds: 38076
+Date: 2023-12-07 09:12:57.892 UTC
+Payload:
+CmdAcceptedCounter: 24
+CmdRejectedCounter: 77
+DestTblLoadCounter: 223
+DestTblErrCounter: 232
+FilterTblLoadCounter: 173
+FilterTblErrCounter: 216
+AppEnableState: 1
+FileWriteCounter: 883
+FileWriteErrCounter: 61416
+FileUpdateCounter: 57119
+FileUpdateErrCounter: 52968
+DisabledPktCounter: 54
+IgnoredPktCounter: 4026531816
+FilteredPktCounter: 3758096406
+PassedPktCounter: 3489661763
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 25
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212405
+Subseconds: 38076
+Date: 2023-12-07 09:12:58.892 UTC
+Payload:
+CmdAcceptedCounter: 25
+CmdRejectedCounter: 76
+DestTblLoadCounter: 224
+DestTblErrCounter: 231
+FilterTblLoadCounter: 174
+FilterTblErrCounter: 215
+AppEnableState: 1
+FileWriteCounter: 889
+FileWriteErrCounter: 61415
+FileUpdateCounter: 57120
+FileUpdateErrCounter: 52967
+DisabledPktCounter: 55
+IgnoredPktCounter: 4026531815
+FilteredPktCounter: 3758096407
+PassedPktCounter: 3489661769
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 26
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212406
+Subseconds: 38076
+Date: 2023-12-07 09:12:59.892 UTC
+Payload:
+CmdAcceptedCounter: 26
+CmdRejectedCounter: 75
+DestTblLoadCounter: 225
+DestTblErrCounter: 230
+FilterTblLoadCounter: 175
+FilterTblErrCounter: 214
+AppEnableState: 1
+FileWriteCounter: 895
+FileWriteErrCounter: 61414
+FileUpdateCounter: 57121
+FileUpdateErrCounter: 52966
+DisabledPktCounter: 56
+IgnoredPktCounter: 4026531814
+FilteredPktCounter: 3758096408
+PassedPktCounter: 3489661775
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 27
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212407
+Subseconds: 38076
+Date: 2023-12-07 09:13:00.892 UTC
+Payload:
+CmdAcceptedCounter: 27
+CmdRejectedCounter: 74
+DestTblLoadCounter: 226
+DestTblErrCounter: 229
+FilterTblLoadCounter: 176
+FilterTblErrCounter: 213
+AppEnableState: 1
+FileWriteCounter: 901
+FileWriteErrCounter: 61413
+FileUpdateCounter: 57122
+FileUpdateErrCounter: 52965
+DisabledPktCounter: 57
+IgnoredPktCounter: 4026531813
+FilteredPktCounter: 3758096409
+PassedPktCounter: 3489661781
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 28
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212408
+Subseconds: 38076
+Date: 2023-12-07 09:13:01.892 UTC
+Payload:
+CmdAcceptedCounter: 28
+CmdRejectedCounter: 73
+DestTblLoadCounter: 227
+DestTblErrCounter: 228
+FilterTblLoadCounter: 177
+FilterTblErrCounter: 212
+AppEnableState: 1
+FileWriteCounter: 907
+FileWriteErrCounter: 61412
+FileUpdateCounter: 57123
+FileUpdateErrCounter: 52964
+DisabledPktCounter: 58
+IgnoredPktCounter: 4026531812
+FilteredPktCounter: 3758096410
+PassedPktCounter: 3489661787
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 29
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212409
+Subseconds: 38076
+Date: 2023-12-07 09:13:02.892 UTC
+Payload:
+CmdAcceptedCounter: 29
+CmdRejectedCounter: 72
+DestTblLoadCounter: 228
+DestTblErrCounter: 227
+FilterTblLoadCounter: 178
+FilterTblErrCounter: 211
+AppEnableState: 1
+FileWriteCounter: 913
+FileWriteErrCounter: 61411
+FileUpdateCounter: 57124
+FileUpdateErrCounter: 52963
+DisabledPktCounter: 59
+IgnoredPktCounter: 4026531811
+FilteredPktCounter: 3758096411
+PassedPktCounter: 3489661793
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 30
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212410
+Subseconds: 38076
+Date: 2023-12-07 09:13:03.892 UTC
+Payload:
+CmdAcceptedCounter: 30
+CmdRejectedCounter: 71
+DestTblLoadCounter: 229
+DestTblErrCounter: 226
+FilterTblLoadCounter: 179
+FilterTblErrCounter: 210
+AppEnableState: 1
+FileWriteCounter: 919
+FileWriteErrCounter: 61410
+FileUpdateCounter: 57125
+FileUpdateErrCounter: 52962
+DisabledPktCounter: 60
+IgnoredPktCounter: 4026531810
+FilteredPktCounter: 3758096412
+PassedPktCounter: 3489661799
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 31
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212411
+Subseconds: 38076
+Date: 2023-12-07 09:13:04.892 UTC
+Payload:
+CmdAcceptedCounter: 31
+CmdRejectedCounter: 70
+DestTblLoadCounter: 230
+DestTblErrCounter: 225
+FilterTblLoadCounter: 180
+FilterTblErrCounter: 209
+AppEnableState: 1
+FileWriteCounter: 925
+FileWriteErrCounter: 61409
+FileUpdateCounter: 57126
+FileUpdateErrCounter: 52961
+DisabledPktCounter: 61
+IgnoredPktCounter: 4026531809
+FilteredPktCounter: 3758096413
+PassedPktCounter: 3489661805
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 32
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212412
+Subseconds: 38076
+Date: 2023-12-07 09:13:05.892 UTC
+Payload:
+CmdAcceptedCounter: 32
+CmdRejectedCounter: 69
+DestTblLoadCounter: 231
+DestTblErrCounter: 224
+FilterTblLoadCounter: 181
+FilterTblErrCounter: 208
+AppEnableState: 1
+FileWriteCounter: 931
+FileWriteErrCounter: 61408
+FileUpdateCounter: 57127
+FileUpdateErrCounter: 52960
+DisabledPktCounter: 62
+IgnoredPktCounter: 4026531808
+FilteredPktCounter: 3758096414
+PassedPktCounter: 3489661811
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 33
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212413
+Subseconds: 38076
+Date: 2023-12-07 09:13:06.892 UTC
+Payload:
+CmdAcceptedCounter: 33
+CmdRejectedCounter: 68
+DestTblLoadCounter: 232
+DestTblErrCounter: 223
+FilterTblLoadCounter: 182
+FilterTblErrCounter: 207
+AppEnableState: 1
+FileWriteCounter: 943
+FileWriteErrCounter: 61407
+FileUpdateCounter: 57130
+FileUpdateErrCounter: 52959
+DisabledPktCounter: 63
+IgnoredPktCounter: 4026531807
+FilteredPktCounter: 3758096415
+PassedPktCounter: 3489661817
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 34
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212414
+Subseconds: 38076
+Date: 2023-12-07 09:13:07.892 UTC
+Payload:
+CmdAcceptedCounter: 34
+CmdRejectedCounter: 67
+DestTblLoadCounter: 233
+DestTblErrCounter: 222
+FilterTblLoadCounter: 183
+FilterTblErrCounter: 206
+AppEnableState: 1
+FileWriteCounter: 949
+FileWriteErrCounter: 61406
+FileUpdateCounter: 57131
+FileUpdateErrCounter: 52958
+DisabledPktCounter: 64
+IgnoredPktCounter: 4026531806
+FilteredPktCounter: 3758096416
+PassedPktCounter: 3489661823
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 35
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212415
+Subseconds: 38076
+Date: 2023-12-07 09:13:08.892 UTC
+Payload:
+CmdAcceptedCounter: 35
+CmdRejectedCounter: 66
+DestTblLoadCounter: 234
+DestTblErrCounter: 221
+FilterTblLoadCounter: 184
+FilterTblErrCounter: 205
+AppEnableState: 1
+FileWriteCounter: 955
+FileWriteErrCounter: 61405
+FileUpdateCounter: 57132
+FileUpdateErrCounter: 52957
+DisabledPktCounter: 65
+IgnoredPktCounter: 4026531805
+FilteredPktCounter: 3758096417
+PassedPktCounter: 3489661829
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 36
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212416
+Subseconds: 38076
+Date: 2023-12-07 09:13:09.892 UTC
+Payload:
+CmdAcceptedCounter: 36
+CmdRejectedCounter: 65
+DestTblLoadCounter: 235
+DestTblErrCounter: 220
+FilterTblLoadCounter: 185
+FilterTblErrCounter: 204
+AppEnableState: 1
+FileWriteCounter: 961
+FileWriteErrCounter: 61404
+FileUpdateCounter: 57133
+FileUpdateErrCounter: 52956
+DisabledPktCounter: 66
+IgnoredPktCounter: 4026531804
+FilteredPktCounter: 3758096418
+PassedPktCounter: 3489661835
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 37
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212417
+Subseconds: 38076
+Date: 2023-12-07 09:13:10.892 UTC
+Payload:
+CmdAcceptedCounter: 37
+CmdRejectedCounter: 64
+DestTblLoadCounter: 236
+DestTblErrCounter: 219
+FilterTblLoadCounter: 186
+FilterTblErrCounter: 203
+AppEnableState: 1
+FileWriteCounter: 967
+FileWriteErrCounter: 61403
+FileUpdateCounter: 57134
+FileUpdateErrCounter: 52955
+DisabledPktCounter: 67
+IgnoredPktCounter: 4026531803
+FilteredPktCounter: 3758096419
+PassedPktCounter: 3489661841
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 38
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212418
+Subseconds: 38076
+Date: 2023-12-07 09:13:11.892 UTC
+Payload:
+CmdAcceptedCounter: 38
+CmdRejectedCounter: 63
+DestTblLoadCounter: 237
+DestTblErrCounter: 218
+FilterTblLoadCounter: 187
+FilterTblErrCounter: 202
+AppEnableState: 1
+FileWriteCounter: 973
+FileWriteErrCounter: 61402
+FileUpdateCounter: 57135
+FileUpdateErrCounter: 52954
+DisabledPktCounter: 68
+IgnoredPktCounter: 4026531802
+FilteredPktCounter: 3758096420
+PassedPktCounter: 3489661847
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 39
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212419
+Subseconds: 38076
+Date: 2023-12-07 09:13:12.892 UTC
+Payload:
+CmdAcceptedCounter: 39
+CmdRejectedCounter: 62
+DestTblLoadCounter: 238
+DestTblErrCounter: 217
+FilterTblLoadCounter: 188
+FilterTblErrCounter: 201
+AppEnableState: 1
+FileWriteCounter: 979
+FileWriteErrCounter: 61401
+FileUpdateCounter: 57136
+FileUpdateErrCounter: 52953
+DisabledPktCounter: 69
+IgnoredPktCounter: 4026531801
+FilteredPktCounter: 3758096421
+PassedPktCounter: 3489661853
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 40
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212420
+Subseconds: 38076
+Date: 2023-12-07 09:13:13.892 UTC
+Payload:
+CmdAcceptedCounter: 40
+CmdRejectedCounter: 61
+DestTblLoadCounter: 239
+DestTblErrCounter: 216
+FilterTblLoadCounter: 189
+FilterTblErrCounter: 200
+AppEnableState: 1
+FileWriteCounter: 985
+FileWriteErrCounter: 61400
+FileUpdateCounter: 57137
+FileUpdateErrCounter: 52952
+DisabledPktCounter: 70
+IgnoredPktCounter: 4026531800
+FilteredPktCounter: 3758096422
+PassedPktCounter: 3489661859
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 41
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212421
+Subseconds: 38076
+Date: 2023-12-07 09:13:14.892 UTC
+Payload:
+CmdAcceptedCounter: 41
+CmdRejectedCounter: 60
+DestTblLoadCounter: 240
+DestTblErrCounter: 215
+FilterTblLoadCounter: 190
+FilterTblErrCounter: 199
+AppEnableState: 1
+FileWriteCounter: 991
+FileWriteErrCounter: 61399
+FileUpdateCounter: 57138
+FileUpdateErrCounter: 52951
+DisabledPktCounter: 71
+IgnoredPktCounter: 4026531799
+FilteredPktCounter: 3758096423
+PassedPktCounter: 3489661865
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 42
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212422
+Subseconds: 38076
+Date: 2023-12-07 09:13:15.892 UTC
+Payload:
+CmdAcceptedCounter: 42
+CmdRejectedCounter: 59
+DestTblLoadCounter: 241
+DestTblErrCounter: 214
+FilterTblLoadCounter: 191
+FilterTblErrCounter: 198
+AppEnableState: 1
+FileWriteCounter: 997
+FileWriteErrCounter: 61398
+FileUpdateCounter: 57139
+FileUpdateErrCounter: 52950
+DisabledPktCounter: 72
+IgnoredPktCounter: 4026531798
+FilteredPktCounter: 3758096424
+PassedPktCounter: 3489661871
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 43
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212423
+Subseconds: 38076
+Date: 2023-12-07 09:13:16.892 UTC
+Payload:
+CmdAcceptedCounter: 43
+CmdRejectedCounter: 58
+DestTblLoadCounter: 242
+DestTblErrCounter: 213
+FilterTblLoadCounter: 192
+FilterTblErrCounter: 197
+AppEnableState: 1
+FileWriteCounter: 1003
+FileWriteErrCounter: 61397
+FileUpdateCounter: 57140
+FileUpdateErrCounter: 52949
+DisabledPktCounter: 73
+IgnoredPktCounter: 4026531797
+FilteredPktCounter: 3758096425
+PassedPktCounter: 3489661877
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 44
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212424
+Subseconds: 38076
+Date: 2023-12-07 09:13:17.892 UTC
+Payload:
+CmdAcceptedCounter: 44
+CmdRejectedCounter: 57
+DestTblLoadCounter: 243
+DestTblErrCounter: 212
+FilterTblLoadCounter: 193
+FilterTblErrCounter: 196
+AppEnableState: 1
+FileWriteCounter: 1009
+FileWriteErrCounter: 61396
+FileUpdateCounter: 57141
+FileUpdateErrCounter: 52948
+DisabledPktCounter: 74
+IgnoredPktCounter: 4026531796
+FilteredPktCounter: 3758096426
+PassedPktCounter: 3489661883
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 45
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212425
+Subseconds: 38076
+Date: 2023-12-07 09:13:18.892 UTC
+Payload:
+CmdAcceptedCounter: 45
+CmdRejectedCounter: 56
+DestTblLoadCounter: 244
+DestTblErrCounter: 211
+FilterTblLoadCounter: 194
+FilterTblErrCounter: 195
+AppEnableState: 1
+FileWriteCounter: 1015
+FileWriteErrCounter: 61395
+FileUpdateCounter: 57142
+FileUpdateErrCounter: 52947
+DisabledPktCounter: 75
+IgnoredPktCounter: 4026531795
+FilteredPktCounter: 3758096427
+PassedPktCounter: 3489661889
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 46
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212426
+Subseconds: 38076
+Date: 2023-12-07 09:13:19.892 UTC
+Payload:
+CmdAcceptedCounter: 46
+CmdRejectedCounter: 55
+DestTblLoadCounter: 245
+DestTblErrCounter: 210
+FilterTblLoadCounter: 195
+FilterTblErrCounter: 194
+AppEnableState: 1
+FileWriteCounter: 1021
+FileWriteErrCounter: 61394
+FileUpdateCounter: 57143
+FileUpdateErrCounter: 52946
+DisabledPktCounter: 76
+IgnoredPktCounter: 4026531794
+FilteredPktCounter: 3758096428
+PassedPktCounter: 3489661895
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 47
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212427
+Subseconds: 38076
+Date: 2023-12-07 09:13:20.892 UTC
+Payload:
+CmdAcceptedCounter: 47
+CmdRejectedCounter: 54
+DestTblLoadCounter: 246
+DestTblErrCounter: 209
+FilterTblLoadCounter: 196
+FilterTblErrCounter: 193
+AppEnableState: 1
+FileWriteCounter: 1027
+FileWriteErrCounter: 61393
+FileUpdateCounter: 57144
+FileUpdateErrCounter: 52945
+DisabledPktCounter: 77
+IgnoredPktCounter: 4026531793
+FilteredPktCounter: 3758096429
+PassedPktCounter: 3489661901
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 48
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212428
+Subseconds: 38076
+Date: 2023-12-07 09:13:21.892 UTC
+Payload:
+CmdAcceptedCounter: 48
+CmdRejectedCounter: 53
+DestTblLoadCounter: 247
+DestTblErrCounter: 208
+FilterTblLoadCounter: 197
+FilterTblErrCounter: 192
+AppEnableState: 1
+FileWriteCounter: 1033
+FileWriteErrCounter: 61392
+FileUpdateCounter: 57145
+FileUpdateErrCounter: 52944
+DisabledPktCounter: 78
+IgnoredPktCounter: 4026531792
+FilteredPktCounter: 3758096430
+PassedPktCounter: 3489661907
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 49
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212429
+Subseconds: 38076
+Date: 2023-12-07 09:13:22.892 UTC
+Payload:
+CmdAcceptedCounter: 49
+CmdRejectedCounter: 52
+DestTblLoadCounter: 248
+DestTblErrCounter: 207
+FilterTblLoadCounter: 198
+FilterTblErrCounter: 191
+AppEnableState: 1
+FileWriteCounter: 1039
+FileWriteErrCounter: 61391
+FileUpdateCounter: 57146
+FileUpdateErrCounter: 52943
+DisabledPktCounter: 79
+IgnoredPktCounter: 4026531791
+FilteredPktCounter: 3758096431
+PassedPktCounter: 3489661913
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 50
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212430
+Subseconds: 38076
+Date: 2023-12-07 09:13:23.892 UTC
+Payload:
+CmdAcceptedCounter: 50
+CmdRejectedCounter: 51
+DestTblLoadCounter: 249
+DestTblErrCounter: 206
+FilterTblLoadCounter: 199
+FilterTblErrCounter: 190
+AppEnableState: 1
+FileWriteCounter: 1045
+FileWriteErrCounter: 61390
+FileUpdateCounter: 57147
+FileUpdateErrCounter: 52942
+DisabledPktCounter: 80
+IgnoredPktCounter: 4026531790
+FilteredPktCounter: 3758096432
+PassedPktCounter: 3489661919
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 51
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212431
+Subseconds: 38076
+Date: 2023-12-07 09:13:24.892 UTC
+Payload:
+CmdAcceptedCounter: 51
+CmdRejectedCounter: 50
+DestTblLoadCounter: 250
+DestTblErrCounter: 205
+FilterTblLoadCounter: 200
+FilterTblErrCounter: 189
+AppEnableState: 1
+FileWriteCounter: 1051
+FileWriteErrCounter: 61389
+FileUpdateCounter: 57148
+FileUpdateErrCounter: 52941
+DisabledPktCounter: 81
+IgnoredPktCounter: 4026531789
+FilteredPktCounter: 3758096433
+PassedPktCounter: 3489661925
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 52
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212432
+Subseconds: 38076
+Date: 2023-12-07 09:13:25.892 UTC
+Payload:
+CmdAcceptedCounter: 52
+CmdRejectedCounter: 49
+DestTblLoadCounter: 251
+DestTblErrCounter: 204
+FilterTblLoadCounter: 201
+FilterTblErrCounter: 188
+AppEnableState: 1
+FileWriteCounter: 1057
+FileWriteErrCounter: 61388
+FileUpdateCounter: 57149
+FileUpdateErrCounter: 52940
+DisabledPktCounter: 82
+IgnoredPktCounter: 4026531788
+FilteredPktCounter: 3758096434
+PassedPktCounter: 3489661931
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 53
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212433
+Subseconds: 38076
+Date: 2023-12-07 09:13:26.892 UTC
+Payload:
+CmdAcceptedCounter: 53
+CmdRejectedCounter: 48
+DestTblLoadCounter: 252
+DestTblErrCounter: 203
+FilterTblLoadCounter: 202
+FilterTblErrCounter: 187
+AppEnableState: 1
+FileWriteCounter: 1063
+FileWriteErrCounter: 61387
+FileUpdateCounter: 57150
+FileUpdateErrCounter: 52939
+DisabledPktCounter: 83
+IgnoredPktCounter: 4026531787
+FilteredPktCounter: 3758096435
+PassedPktCounter: 3489661937
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 54
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212434
+Subseconds: 38076
+Date: 2023-12-07 09:13:27.892 UTC
+Payload:
+CmdAcceptedCounter: 54
+CmdRejectedCounter: 47
+DestTblLoadCounter: 253
+DestTblErrCounter: 202
+FilterTblLoadCounter: 203
+FilterTblErrCounter: 186
+AppEnableState: 1
+FileWriteCounter: 1069
+FileWriteErrCounter: 61386
+FileUpdateCounter: 57151
+FileUpdateErrCounter: 52938
+DisabledPktCounter: 84
+IgnoredPktCounter: 4026531786
+FilteredPktCounter: 3758096436
+PassedPktCounter: 3489661943
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 55
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212435
+Subseconds: 38076
+Date: 2023-12-07 09:13:28.892 UTC
+Payload:
+CmdAcceptedCounter: 55
+CmdRejectedCounter: 46
+DestTblLoadCounter: 254
+DestTblErrCounter: 201
+FilterTblLoadCounter: 204
+FilterTblErrCounter: 185
+AppEnableState: 1
+FileWriteCounter: 1075
+FileWriteErrCounter: 61385
+FileUpdateCounter: 57152
+FileUpdateErrCounter: 52937
+DisabledPktCounter: 85
+IgnoredPktCounter: 4026531785
+FilteredPktCounter: 3758096437
+PassedPktCounter: 3489661949
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 56
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212436
+Subseconds: 38076
+Date: 2023-12-07 09:13:29.892 UTC
+Payload:
+CmdAcceptedCounter: 56
+CmdRejectedCounter: 45
+DestTblLoadCounter: 255
+DestTblErrCounter: 200
+FilterTblLoadCounter: 205
+FilterTblErrCounter: 184
+AppEnableState: 1
+FileWriteCounter: 1081
+FileWriteErrCounter: 61384
+FileUpdateCounter: 57153
+FileUpdateErrCounter: 52936
+DisabledPktCounter: 86
+IgnoredPktCounter: 4026531784
+FilteredPktCounter: 3758096438
+PassedPktCounter: 3489661955
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 57
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212437
+Subseconds: 38076
+Date: 2023-12-07 09:13:30.892 UTC
+Payload:
+CmdAcceptedCounter: 57
+CmdRejectedCounter: 44
+DestTblLoadCounter: 0
+DestTblErrCounter: 199
+FilterTblLoadCounter: 206
+FilterTblErrCounter: 183
+AppEnableState: 1
+FileWriteCounter: 1090
+FileWriteErrCounter: 61383
+FileUpdateCounter: 57155
+FileUpdateErrCounter: 52935
+DisabledPktCounter: 87
+IgnoredPktCounter: 4026531783
+FilteredPktCounter: 3758096439
+PassedPktCounter: 3489661961
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 58
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212438
+Subseconds: 38076
+Date: 2023-12-07 09:13:31.892 UTC
+Payload:
+CmdAcceptedCounter: 58
+CmdRejectedCounter: 43
+DestTblLoadCounter: 1
+DestTblErrCounter: 198
+FilterTblLoadCounter: 207
+FilterTblErrCounter: 182
+AppEnableState: 1
+FileWriteCounter: 1096
+FileWriteErrCounter: 61382
+FileUpdateCounter: 57156
+FileUpdateErrCounter: 52934
+DisabledPktCounter: 88
+IgnoredPktCounter: 4026531782
+FilteredPktCounter: 3758096440
+PassedPktCounter: 3489661967
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 59
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212439
+Subseconds: 38076
+Date: 2023-12-07 09:13:32.892 UTC
+Payload:
+CmdAcceptedCounter: 59
+CmdRejectedCounter: 42
+DestTblLoadCounter: 2
+DestTblErrCounter: 197
+FilterTblLoadCounter: 208
+FilterTblErrCounter: 181
+AppEnableState: 1
+FileWriteCounter: 1102
+FileWriteErrCounter: 61381
+FileUpdateCounter: 57157
+FileUpdateErrCounter: 52933
+DisabledPktCounter: 89
+IgnoredPktCounter: 4026531781
+FilteredPktCounter: 3758096441
+PassedPktCounter: 3489661973
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 60
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212440
+Subseconds: 38076
+Date: 2023-12-07 09:13:33.892 UTC
+Payload:
+CmdAcceptedCounter: 60
+CmdRejectedCounter: 41
+DestTblLoadCounter: 3
+DestTblErrCounter: 196
+FilterTblLoadCounter: 209
+FilterTblErrCounter: 180
+AppEnableState: 1
+FileWriteCounter: 1109
+FileWriteErrCounter: 61380
+FileUpdateCounter: 57158
+FileUpdateErrCounter: 52932
+DisabledPktCounter: 90
+IgnoredPktCounter: 4026531780
+FilteredPktCounter: 3758096442
+PassedPktCounter: 3489661980
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 61
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212441
+Subseconds: 38076
+Date: 2023-12-07 09:13:34.892 UTC
+Payload:
+CmdAcceptedCounter: 61
+CmdRejectedCounter: 40
+DestTblLoadCounter: 4
+DestTblErrCounter: 195
+FilterTblLoadCounter: 210
+FilterTblErrCounter: 179
+AppEnableState: 1
+FileWriteCounter: 1115
+FileWriteErrCounter: 61379
+FileUpdateCounter: 57159
+FileUpdateErrCounter: 52931
+DisabledPktCounter: 91
+IgnoredPktCounter: 4026531779
+FilteredPktCounter: 3758096443
+PassedPktCounter: 3489661986
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 62
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212442
+Subseconds: 38076
+Date: 2023-12-07 09:13:35.892 UTC
+Payload:
+CmdAcceptedCounter: 62
+CmdRejectedCounter: 39
+DestTblLoadCounter: 5
+DestTblErrCounter: 194
+FilterTblLoadCounter: 211
+FilterTblErrCounter: 178
+AppEnableState: 1
+FileWriteCounter: 1121
+FileWriteErrCounter: 61378
+FileUpdateCounter: 57160
+FileUpdateErrCounter: 52930
+DisabledPktCounter: 92
+IgnoredPktCounter: 4026531778
+FilteredPktCounter: 3758096444
+PassedPktCounter: 3489661992
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 63
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212443
+Subseconds: 38076
+Date: 2023-12-07 09:13:36.892 UTC
+Payload:
+CmdAcceptedCounter: 63
+CmdRejectedCounter: 38
+DestTblLoadCounter: 6
+DestTblErrCounter: 193
+FilterTblLoadCounter: 212
+FilterTblErrCounter: 177
+AppEnableState: 1
+FileWriteCounter: 1127
+FileWriteErrCounter: 61377
+FileUpdateCounter: 57161
+FileUpdateErrCounter: 52929
+DisabledPktCounter: 93
+IgnoredPktCounter: 4026531777
+FilteredPktCounter: 3758096445
+PassedPktCounter: 3489661998
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 64
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212444
+Subseconds: 38076
+Date: 2023-12-07 09:13:37.892 UTC
+Payload:
+CmdAcceptedCounter: 64
+CmdRejectedCounter: 37
+DestTblLoadCounter: 7
+DestTblErrCounter: 192
+FilterTblLoadCounter: 213
+FilterTblErrCounter: 176
+AppEnableState: 1
+FileWriteCounter: 1133
+FileWriteErrCounter: 61376
+FileUpdateCounter: 57162
+FileUpdateErrCounter: 52928
+DisabledPktCounter: 94
+IgnoredPktCounter: 4026531776
+FilteredPktCounter: 3758096446
+PassedPktCounter: 3489662004
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 65
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212445
+Subseconds: 38076
+Date: 2023-12-07 09:13:38.892 UTC
+Payload:
+CmdAcceptedCounter: 65
+CmdRejectedCounter: 36
+DestTblLoadCounter: 8
+DestTblErrCounter: 191
+FilterTblLoadCounter: 214
+FilterTblErrCounter: 175
+AppEnableState: 1
+FileWriteCounter: 1139
+FileWriteErrCounter: 61375
+FileUpdateCounter: 57163
+FileUpdateErrCounter: 52927
+DisabledPktCounter: 95
+IgnoredPktCounter: 4026531775
+FilteredPktCounter: 3758096447
+PassedPktCounter: 3489662010
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 66
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212446
+Subseconds: 38076
+Date: 2023-12-07 09:13:39.892 UTC
+Payload:
+CmdAcceptedCounter: 66
+CmdRejectedCounter: 35
+DestTblLoadCounter: 9
+DestTblErrCounter: 190
+FilterTblLoadCounter: 215
+FilterTblErrCounter: 174
+AppEnableState: 1
+FileWriteCounter: 1145
+FileWriteErrCounter: 61374
+FileUpdateCounter: 57164
+FileUpdateErrCounter: 52926
+DisabledPktCounter: 96
+IgnoredPktCounter: 4026531774
+FilteredPktCounter: 3758096448
+PassedPktCounter: 3489662016
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 67
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212447
+Subseconds: 38076
+Date: 2023-12-07 09:13:40.892 UTC
+Payload:
+CmdAcceptedCounter: 67
+CmdRejectedCounter: 34
+DestTblLoadCounter: 10
+DestTblErrCounter: 189
+FilterTblLoadCounter: 216
+FilterTblErrCounter: 173
+AppEnableState: 1
+FileWriteCounter: 1151
+FileWriteErrCounter: 61373
+FileUpdateCounter: 57165
+FileUpdateErrCounter: 52925
+DisabledPktCounter: 97
+IgnoredPktCounter: 4026531773
+FilteredPktCounter: 3758096449
+PassedPktCounter: 3489662022
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 68
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212448
+Subseconds: 38076
+Date: 2023-12-07 09:13:41.892 UTC
+Payload:
+CmdAcceptedCounter: 68
+CmdRejectedCounter: 33
+DestTblLoadCounter: 11
+DestTblErrCounter: 188
+FilterTblLoadCounter: 217
+FilterTblErrCounter: 172
+AppEnableState: 1
+FileWriteCounter: 1163
+FileWriteErrCounter: 61372
+FileUpdateCounter: 57168
+FileUpdateErrCounter: 52924
+DisabledPktCounter: 98
+IgnoredPktCounter: 4026531772
+FilteredPktCounter: 3758096450
+PassedPktCounter: 3489662028
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 69
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212449
+Subseconds: 38076
+Date: 2023-12-07 09:13:42.892 UTC
+Payload:
+CmdAcceptedCounter: 69
+CmdRejectedCounter: 32
+DestTblLoadCounter: 12
+DestTblErrCounter: 187
+FilterTblLoadCounter: 218
+FilterTblErrCounter: 171
+AppEnableState: 1
+FileWriteCounter: 1169
+FileWriteErrCounter: 61371
+FileUpdateCounter: 57169
+FileUpdateErrCounter: 52923
+DisabledPktCounter: 99
+IgnoredPktCounter: 4026531771
+FilteredPktCounter: 3758096451
+PassedPktCounter: 3489662034
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 70
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212450
+Subseconds: 38076
+Date: 2023-12-07 09:13:43.892 UTC
+Payload:
+CmdAcceptedCounter: 70
+CmdRejectedCounter: 31
+DestTblLoadCounter: 13
+DestTblErrCounter: 186
+FilterTblLoadCounter: 219
+FilterTblErrCounter: 170
+AppEnableState: 1
+FileWriteCounter: 1175
+FileWriteErrCounter: 61370
+FileUpdateCounter: 57170
+FileUpdateErrCounter: 52922
+DisabledPktCounter: 100
+IgnoredPktCounter: 4026531770
+FilteredPktCounter: 3758096452
+PassedPktCounter: 3489662040
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 71
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212451
+Subseconds: 38076
+Date: 2023-12-07 09:13:44.892 UTC
+Payload:
+CmdAcceptedCounter: 71
+CmdRejectedCounter: 30
+DestTblLoadCounter: 14
+DestTblErrCounter: 185
+FilterTblLoadCounter: 220
+FilterTblErrCounter: 169
+AppEnableState: 1
+FileWriteCounter: 1181
+FileWriteErrCounter: 61369
+FileUpdateCounter: 57171
+FileUpdateErrCounter: 52921
+DisabledPktCounter: 101
+IgnoredPktCounter: 4026531769
+FilteredPktCounter: 3758096453
+PassedPktCounter: 3489662046
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 72
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212452
+Subseconds: 38076
+Date: 2023-12-07 09:13:45.892 UTC
+Payload:
+CmdAcceptedCounter: 72
+CmdRejectedCounter: 29
+DestTblLoadCounter: 15
+DestTblErrCounter: 184
+FilterTblLoadCounter: 221
+FilterTblErrCounter: 168
+AppEnableState: 1
+FileWriteCounter: 1187
+FileWriteErrCounter: 61368
+FileUpdateCounter: 57172
+FileUpdateErrCounter: 52920
+DisabledPktCounter: 102
+IgnoredPktCounter: 4026531768
+FilteredPktCounter: 3758096454
+PassedPktCounter: 3489662052
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 73
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212453
+Subseconds: 38076
+Date: 2023-12-07 09:13:46.892 UTC
+Payload:
+CmdAcceptedCounter: 73
+CmdRejectedCounter: 28
+DestTblLoadCounter: 16
+DestTblErrCounter: 183
+FilterTblLoadCounter: 222
+FilterTblErrCounter: 167
+AppEnableState: 1
+FileWriteCounter: 1193
+FileWriteErrCounter: 61367
+FileUpdateCounter: 57173
+FileUpdateErrCounter: 52919
+DisabledPktCounter: 103
+IgnoredPktCounter: 4026531767
+FilteredPktCounter: 3758096455
+PassedPktCounter: 3489662058
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 74
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212454
+Subseconds: 38076
+Date: 2023-12-07 09:13:47.892 UTC
+Payload:
+CmdAcceptedCounter: 74
+CmdRejectedCounter: 27
+DestTblLoadCounter: 17
+DestTblErrCounter: 182
+FilterTblLoadCounter: 223
+FilterTblErrCounter: 166
+AppEnableState: 1
+FileWriteCounter: 1199
+FileWriteErrCounter: 61366
+FileUpdateCounter: 57174
+FileUpdateErrCounter: 52918
+DisabledPktCounter: 104
+IgnoredPktCounter: 4026531766
+FilteredPktCounter: 3758096456
+PassedPktCounter: 3489662064
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 75
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212455
+Subseconds: 38076
+Date: 2023-12-07 09:13:48.892 UTC
+Payload:
+CmdAcceptedCounter: 75
+CmdRejectedCounter: 26
+DestTblLoadCounter: 18
+DestTblErrCounter: 181
+FilterTblLoadCounter: 224
+FilterTblErrCounter: 165
+AppEnableState: 1
+FileWriteCounter: 1205
+FileWriteErrCounter: 61365
+FileUpdateCounter: 57175
+FileUpdateErrCounter: 52917
+DisabledPktCounter: 105
+IgnoredPktCounter: 4026531765
+FilteredPktCounter: 3758096457
+PassedPktCounter: 3489662070
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 76
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212456
+Subseconds: 38076
+Date: 2023-12-07 09:13:49.892 UTC
+Payload:
+CmdAcceptedCounter: 76
+CmdRejectedCounter: 25
+DestTblLoadCounter: 19
+DestTblErrCounter: 180
+FilterTblLoadCounter: 225
+FilterTblErrCounter: 164
+AppEnableState: 1
+FileWriteCounter: 1214
+FileWriteErrCounter: 61364
+FileUpdateCounter: 57177
+FileUpdateErrCounter: 52916
+DisabledPktCounter: 106
+IgnoredPktCounter: 4026531764
+FilteredPktCounter: 3758096458
+PassedPktCounter: 3489662076
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 77
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212457
+Subseconds: 38076
+Date: 2023-12-07 09:13:50.892 UTC
+Payload:
+CmdAcceptedCounter: 77
+CmdRejectedCounter: 24
+DestTblLoadCounter: 20
+DestTblErrCounter: 179
+FilterTblLoadCounter: 226
+FilterTblErrCounter: 163
+AppEnableState: 1
+FileWriteCounter: 1220
+FileWriteErrCounter: 61363
+FileUpdateCounter: 57178
+FileUpdateErrCounter: 52915
+DisabledPktCounter: 107
+IgnoredPktCounter: 4026531763
+FilteredPktCounter: 3758096459
+PassedPktCounter: 3489662082
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 78
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212458
+Subseconds: 38076
+Date: 2023-12-07 09:13:51.892 UTC
+Payload:
+CmdAcceptedCounter: 78
+CmdRejectedCounter: 23
+DestTblLoadCounter: 21
+DestTblErrCounter: 178
+FilterTblLoadCounter: 227
+FilterTblErrCounter: 162
+AppEnableState: 1
+FileWriteCounter: 1226
+FileWriteErrCounter: 61362
+FileUpdateCounter: 57179
+FileUpdateErrCounter: 52914
+DisabledPktCounter: 108
+IgnoredPktCounter: 4026531762
+FilteredPktCounter: 3758096460
+PassedPktCounter: 3489662088
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 79
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212459
+Subseconds: 38076
+Date: 2023-12-07 09:13:52.892 UTC
+Payload:
+CmdAcceptedCounter: 79
+CmdRejectedCounter: 22
+DestTblLoadCounter: 22
+DestTblErrCounter: 177
+FilterTblLoadCounter: 228
+FilterTblErrCounter: 161
+AppEnableState: 1
+FileWriteCounter: 1232
+FileWriteErrCounter: 61361
+FileUpdateCounter: 57180
+FileUpdateErrCounter: 52913
+DisabledPktCounter: 109
+IgnoredPktCounter: 4026531761
+FilteredPktCounter: 3758096461
+PassedPktCounter: 3489662094
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 80
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212460
+Subseconds: 38076
+Date: 2023-12-07 09:13:53.892 UTC
+Payload:
+CmdAcceptedCounter: 80
+CmdRejectedCounter: 21
+DestTblLoadCounter: 23
+DestTblErrCounter: 176
+FilterTblLoadCounter: 229
+FilterTblErrCounter: 160
+AppEnableState: 1
+FileWriteCounter: 1238
+FileWriteErrCounter: 61360
+FileUpdateCounter: 57181
+FileUpdateErrCounter: 52912
+DisabledPktCounter: 110
+IgnoredPktCounter: 4026531760
+FilteredPktCounter: 3758096462
+PassedPktCounter: 3489662100
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 81
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212461
+Subseconds: 38076
+Date: 2023-12-07 09:13:54.892 UTC
+Payload:
+CmdAcceptedCounter: 81
+CmdRejectedCounter: 20
+DestTblLoadCounter: 24
+DestTblErrCounter: 175
+FilterTblLoadCounter: 230
+FilterTblErrCounter: 159
+AppEnableState: 1
+FileWriteCounter: 1244
+FileWriteErrCounter: 61359
+FileUpdateCounter: 57182
+FileUpdateErrCounter: 52911
+DisabledPktCounter: 111
+IgnoredPktCounter: 4026531759
+FilteredPktCounter: 3758096463
+PassedPktCounter: 3489662106
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 82
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212462
+Subseconds: 38076
+Date: 2023-12-07 09:13:55.892 UTC
+Payload:
+CmdAcceptedCounter: 82
+CmdRejectedCounter: 19
+DestTblLoadCounter: 25
+DestTblErrCounter: 174
+FilterTblLoadCounter: 231
+FilterTblErrCounter: 158
+AppEnableState: 1
+FileWriteCounter: 1250
+FileWriteErrCounter: 61358
+FileUpdateCounter: 57183
+FileUpdateErrCounter: 52910
+DisabledPktCounter: 112
+IgnoredPktCounter: 4026531758
+FilteredPktCounter: 3758096464
+PassedPktCounter: 3489662112
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 83
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212463
+Subseconds: 38076
+Date: 2023-12-07 09:13:56.892 UTC
+Payload:
+CmdAcceptedCounter: 83
+CmdRejectedCounter: 18
+DestTblLoadCounter: 26
+DestTblErrCounter: 173
+FilterTblLoadCounter: 232
+FilterTblErrCounter: 157
+AppEnableState: 1
+FileWriteCounter: 1256
+FileWriteErrCounter: 61357
+FileUpdateCounter: 57184
+FileUpdateErrCounter: 52909
+DisabledPktCounter: 113
+IgnoredPktCounter: 4026531757
+FilteredPktCounter: 3758096465
+PassedPktCounter: 3489662118
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 84
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212464
+Subseconds: 38076
+Date: 2023-12-07 09:13:57.892 UTC
+Payload:
+CmdAcceptedCounter: 84
+CmdRejectedCounter: 17
+DestTblLoadCounter: 27
+DestTblErrCounter: 172
+FilterTblLoadCounter: 233
+FilterTblErrCounter: 156
+AppEnableState: 1
+FileWriteCounter: 1262
+FileWriteErrCounter: 61356
+FileUpdateCounter: 57185
+FileUpdateErrCounter: 52908
+DisabledPktCounter: 114
+IgnoredPktCounter: 4026531756
+FilteredPktCounter: 3758096466
+PassedPktCounter: 3489662124
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 85
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212465
+Subseconds: 38076
+Date: 2023-12-07 09:13:58.892 UTC
+Payload:
+CmdAcceptedCounter: 85
+CmdRejectedCounter: 16
+DestTblLoadCounter: 28
+DestTblErrCounter: 171
+FilterTblLoadCounter: 234
+FilterTblErrCounter: 155
+AppEnableState: 1
+FileWriteCounter: 1268
+FileWriteErrCounter: 61355
+FileUpdateCounter: 57186
+FileUpdateErrCounter: 52907
+DisabledPktCounter: 115
+IgnoredPktCounter: 4026531755
+FilteredPktCounter: 3758096467
+PassedPktCounter: 3489662130
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 86
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212466
+Subseconds: 38076
+Date: 2023-12-07 09:13:59.892 UTC
+Payload:
+CmdAcceptedCounter: 86
+CmdRejectedCounter: 15
+DestTblLoadCounter: 29
+DestTblErrCounter: 170
+FilterTblLoadCounter: 235
+FilterTblErrCounter: 154
+AppEnableState: 1
+FileWriteCounter: 1274
+FileWriteErrCounter: 61354
+FileUpdateCounter: 57187
+FileUpdateErrCounter: 52906
+DisabledPktCounter: 116
+IgnoredPktCounter: 4026531754
+FilteredPktCounter: 3758096468
+PassedPktCounter: 3489662136
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 87
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212467
+Subseconds: 38076
+Date: 2023-12-07 09:14:00.892 UTC
+Payload:
+CmdAcceptedCounter: 87
+CmdRejectedCounter: 14
+DestTblLoadCounter: 30
+DestTblErrCounter: 169
+FilterTblLoadCounter: 236
+FilterTblErrCounter: 153
+AppEnableState: 1
+FileWriteCounter: 1280
+FileWriteErrCounter: 61353
+FileUpdateCounter: 57188
+FileUpdateErrCounter: 52905
+DisabledPktCounter: 117
+IgnoredPktCounter: 4026531753
+FilteredPktCounter: 3758096469
+PassedPktCounter: 3489662142
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 88
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212468
+Subseconds: 38076
+Date: 2023-12-07 09:14:01.892 UTC
+Payload:
+CmdAcceptedCounter: 88
+CmdRejectedCounter: 13
+DestTblLoadCounter: 31
+DestTblErrCounter: 168
+FilterTblLoadCounter: 237
+FilterTblErrCounter: 152
+AppEnableState: 1
+FileWriteCounter: 1286
+FileWriteErrCounter: 61352
+FileUpdateCounter: 57189
+FileUpdateErrCounter: 52904
+DisabledPktCounter: 118
+IgnoredPktCounter: 4026531752
+FilteredPktCounter: 3758096470
+PassedPktCounter: 3489662148
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 89
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212469
+Subseconds: 38076
+Date: 2023-12-07 09:14:02.892 UTC
+Payload:
+CmdAcceptedCounter: 89
+CmdRejectedCounter: 12
+DestTblLoadCounter: 32
+DestTblErrCounter: 167
+FilterTblLoadCounter: 238
+FilterTblErrCounter: 151
+AppEnableState: 1
+FileWriteCounter: 1292
+FileWriteErrCounter: 61351
+FileUpdateCounter: 57190
+FileUpdateErrCounter: 52903
+DisabledPktCounter: 119
+IgnoredPktCounter: 4026531751
+FilteredPktCounter: 3758096471
+PassedPktCounter: 3489662154
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 90
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212470
+Subseconds: 38076
+Date: 2023-12-07 09:14:03.892 UTC
+Payload:
+CmdAcceptedCounter: 90
+CmdRejectedCounter: 11
+DestTblLoadCounter: 33
+DestTblErrCounter: 166
+FilterTblLoadCounter: 239
+FilterTblErrCounter: 150
+AppEnableState: 1
+FileWriteCounter: 1298
+FileWriteErrCounter: 61350
+FileUpdateCounter: 57191
+FileUpdateErrCounter: 52902
+DisabledPktCounter: 120
+IgnoredPktCounter: 4026531750
+FilteredPktCounter: 3758096472
+PassedPktCounter: 3489662160
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 91
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212471
+Subseconds: 38076
+Date: 2023-12-07 09:14:04.892 UTC
+Payload:
+CmdAcceptedCounter: 91
+CmdRejectedCounter: 10
+DestTblLoadCounter: 34
+DestTblErrCounter: 165
+FilterTblLoadCounter: 240
+FilterTblErrCounter: 149
+AppEnableState: 1
+FileWriteCounter: 1304
+FileWriteErrCounter: 61349
+FileUpdateCounter: 57192
+FileUpdateErrCounter: 52901
+DisabledPktCounter: 121
+IgnoredPktCounter: 4026531749
+FilteredPktCounter: 3758096473
+PassedPktCounter: 3489662166
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 92
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212472
+Subseconds: 38076
+Date: 2023-12-07 09:14:05.892 UTC
+Payload:
+CmdAcceptedCounter: 92
+CmdRejectedCounter: 9
+DestTblLoadCounter: 35
+DestTblErrCounter: 164
+FilterTblLoadCounter: 241
+FilterTblErrCounter: 148
+AppEnableState: 1
+FileWriteCounter: 1310
+FileWriteErrCounter: 61348
+FileUpdateCounter: 57193
+FileUpdateErrCounter: 52900
+DisabledPktCounter: 122
+IgnoredPktCounter: 4026531748
+FilteredPktCounter: 3758096474
+PassedPktCounter: 3489662172
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 93
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212473
+Subseconds: 38076
+Date: 2023-12-07 09:14:06.892 UTC
+Payload:
+CmdAcceptedCounter: 93
+CmdRejectedCounter: 8
+DestTblLoadCounter: 36
+DestTblErrCounter: 163
+FilterTblLoadCounter: 242
+FilterTblErrCounter: 147
+AppEnableState: 1
+FileWriteCounter: 1316
+FileWriteErrCounter: 61347
+FileUpdateCounter: 57194
+FileUpdateErrCounter: 52899
+DisabledPktCounter: 123
+IgnoredPktCounter: 4026531747
+FilteredPktCounter: 3758096475
+PassedPktCounter: 3489662178
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 94
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212474
+Subseconds: 38076
+Date: 2023-12-07 09:14:07.892 UTC
+Payload:
+CmdAcceptedCounter: 94
+CmdRejectedCounter: 7
+DestTblLoadCounter: 37
+DestTblErrCounter: 162
+FilterTblLoadCounter: 243
+FilterTblErrCounter: 146
+AppEnableState: 1
+FileWriteCounter: 1322
+FileWriteErrCounter: 61346
+FileUpdateCounter: 57195
+FileUpdateErrCounter: 52898
+DisabledPktCounter: 124
+IgnoredPktCounter: 4026531746
+FilteredPktCounter: 3758096476
+PassedPktCounter: 3489662184
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 95
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212475
+Subseconds: 38076
+Date: 2023-12-07 09:14:08.892 UTC
+Payload:
+CmdAcceptedCounter: 95
+CmdRejectedCounter: 6
+DestTblLoadCounter: 38
+DestTblErrCounter: 161
+FilterTblLoadCounter: 244
+FilterTblErrCounter: 145
+AppEnableState: 1
+FileWriteCounter: 1328
+FileWriteErrCounter: 61345
+FileUpdateCounter: 57196
+FileUpdateErrCounter: 52897
+DisabledPktCounter: 125
+IgnoredPktCounter: 4026531745
+FilteredPktCounter: 3758096477
+PassedPktCounter: 3489662190
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 96
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212476
+Subseconds: 38076
+Date: 2023-12-07 09:14:09.892 UTC
+Payload:
+CmdAcceptedCounter: 96
+CmdRejectedCounter: 5
+DestTblLoadCounter: 39
+DestTblErrCounter: 160
+FilterTblLoadCounter: 245
+FilterTblErrCounter: 144
+AppEnableState: 1
+FileWriteCounter: 1334
+FileWriteErrCounter: 61344
+FileUpdateCounter: 57197
+FileUpdateErrCounter: 52896
+DisabledPktCounter: 126
+IgnoredPktCounter: 4026531744
+FilteredPktCounter: 3758096478
+PassedPktCounter: 3489662196
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 97
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212477
+Subseconds: 38076
+Date: 2023-12-07 09:14:10.892 UTC
+Payload:
+CmdAcceptedCounter: 97
+CmdRejectedCounter: 4
+DestTblLoadCounter: 40
+DestTblErrCounter: 159
+FilterTblLoadCounter: 246
+FilterTblErrCounter: 143
+AppEnableState: 1
+FileWriteCounter: 1340
+FileWriteErrCounter: 61343
+FileUpdateCounter: 57198
+FileUpdateErrCounter: 52895
+DisabledPktCounter: 127
+IgnoredPktCounter: 4026531743
+FilteredPktCounter: 3758096479
+PassedPktCounter: 3489662202
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 98
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212478
+Subseconds: 38076
+Date: 2023-12-07 09:14:11.892 UTC
+Payload:
+CmdAcceptedCounter: 98
+CmdRejectedCounter: 3
+DestTblLoadCounter: 41
+DestTblErrCounter: 158
+FilterTblLoadCounter: 247
+FilterTblErrCounter: 142
+AppEnableState: 1
+FileWriteCounter: 1349
+FileWriteErrCounter: 61342
+FileUpdateCounter: 57200
+FileUpdateErrCounter: 52894
+DisabledPktCounter: 128
+IgnoredPktCounter: 4026531742
+FilteredPktCounter: 3758096480
+PassedPktCounter: 3489662208
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 99
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212479
+Subseconds: 38076
+Date: 2023-12-07 09:14:12.892 UTC
+Payload:
+CmdAcceptedCounter: 99
+CmdRejectedCounter: 2
+DestTblLoadCounter: 42
+DestTblErrCounter: 157
+FilterTblLoadCounter: 248
+FilterTblErrCounter: 141
+AppEnableState: 1
+FileWriteCounter: 1355
+FileWriteErrCounter: 61341
+FileUpdateCounter: 57201
+FileUpdateErrCounter: 52893
+DisabledPktCounter: 129
+IgnoredPktCounter: 4026531741
+FilteredPktCounter: 3758096481
+PassedPktCounter: 3489662214
+FilterTblFilename: C:\ds.tbl
+
+TelemetryHeader:
+PrimaryHeader:
+ApplicationID: 427
+HasSecondaryHeader: true
+PacketType: TLM
+CCSDSVersion: Ver1
+SequenceCount: 100
+SegmentationFlags: 3
+Length: 69
+SecondaryHeader:
+Seconds: 755212480
+Subseconds: 38076
+Date: 2023-12-07 09:14:13.892 UTC
+Payload:
+CmdAcceptedCounter: 100
+CmdRejectedCounter: 1
+DestTblLoadCounter: 43
+DestTblErrCounter: 156
+FilterTblLoadCounter: 249
+FilterTblErrCounter: 140
+AppEnableState: 1
+FileWriteCounter: 1361
+FileWriteErrCounter: 61340
+FileUpdateCounter: 57202
+FileUpdateErrCounter: 52892
+DisabledPktCounter: 130
+IgnoredPktCounter: 4026531740
+FilteredPktCounter: 3758096482
+PassedPktCounter: 3489662220
+FilterTblFilename: C:\ds.tbl
+

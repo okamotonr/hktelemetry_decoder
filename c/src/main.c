@@ -6,15 +6,45 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
+#include <sys/time.h>
 
 void print_secondary_header(
     CFE_MSG_TelemetrySecondaryHeader_t const *s_header) {
   uint32 seconds = ((uint32)s_header->Time[0] << 24) |
                    ((uint32)s_header->Time[1] << 16) |
                    ((uint32)s_header->Time[2] << 8) | s_header->Time[3];
-  uint16 subseconds = (uint16)s_header->Time[4] << 8 | s_header->Time[5];
+  uint32 subseconds = ((uint16)s_header->Time[4] << 8 | s_header->Time[5]);
   printf("Seconds: %u\n", seconds);
   printf("Subseconds: %u\n", subseconds);
+  struct tm epoch = {};
+  struct tm target = {};
+  char buf[1000];
+  // epoch is J2000.0 (2000-01-01 11:58:55.816 UTC)
+  epoch.tm_year = 2000 - 1900;
+  epoch.tm_mon = 1 - 1;
+  epoch.tm_mday = 1;
+  epoch.tm_hour = 11;
+  epoch.tm_min = 58;
+  epoch.tm_sec = 55;
+
+  time_t epoch_as_sec = mktime(&epoch);
+
+  epoch_as_sec += seconds;
+  time_t millisec_base = 816;
+
+  time_t millisec = millisec_base + subseconds;
+
+  epoch_as_sec += millisec / 1000;
+  millisec = millisec % 1000;
+
+  // UTC 
+  localtime_r(&epoch_as_sec, &target);
+
+  strftime(buf, 1000, "%F %T", &target);
+  printf("Date: %s", buf);
+  printf(".%lu UTC\n", millisec);
+  
 }
 
 bool print_primary_header(CCSDS_PrimaryHeader_t const *p_header) {
@@ -51,7 +81,6 @@ bool print_primary_header(CCSDS_PrimaryHeader_t const *p_header) {
   }
   uint16 sequence =
       ((uint16)p_header->Sequence[0] << 8) | p_header->Sequence[1];
-  printf("Sequence: %u\n", sequence);
 
   uint16 sequence_count = sequence & 0x3FFF;
   printf("SequenceCount: %u\n", sequence_count);
@@ -142,16 +171,15 @@ int main(int argv, char *argc[]) {
   for (;;) {
     DS_HkPacket_t packet;
     int ret = parse_ds_hk_packet(&input, &packet);
-    printf("offset is %lu\n", input.offset);
     if (ret != 0) {
       fprintf(stderr, "failed to parse\n");
       exit(EXIT_FAILURE);
     }
     print_packet(&packet);
+    printf("\n");
     if (input.offset == file_size) {
       break;
     }
-    printf("\n");
   }
 
   fclose(fp);

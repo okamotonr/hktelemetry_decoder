@@ -1,6 +1,7 @@
 use std::ffi::c_char;
 
 use crate::def::{
+    get_ccsds_v, get_application_id, get_has_secondary_header, get_packet_type, get_seq_count, get_seg_flags,
     CCSDSPrimaryHeader, CCSDSSpacePacket, CFEMSGMessage, CFEMSGTelemetryHeader,
     CFEMSGTelemetrySecondaryHeader, DSHKPacket, DSHKTlmPayload, OS_MAX_PATH_LEN,
 };
@@ -71,7 +72,13 @@ fn parse_cfe_msg_telemetry_header(data: &[u8]) -> IResult<&[u8], CFEMSGTelemetry
     let (data, sec) = if msg.has_secondary_header() {
         parse_cfe_msg_telemetry_secondary_header(data)?
     } else {
-        (data, CFEMSGTelemetrySecondaryHeader { time: [0; 6] })
+        (
+            data,
+            CFEMSGTelemetrySecondaryHeader {
+                seconds: 0,
+                subseconds: 0,
+            },
+        )
     };
 
     //let (data, spare) = take(4_usize)(data)?;
@@ -93,7 +100,7 @@ fn parse_cfe_msg_message(data: &[u8]) -> IResult<&[u8], CFEMSGMessage> {
 
 fn parse_ccsds_space_packet(data: &[u8]) -> IResult<&[u8], CCSDSSpacePacket> {
     let (data, pri) = parse_ccsds_primary_header(data)?;
-    let length = pri.get_length() as usize;
+    let length = pri.length as usize;
     (length <= data.len())
         .then_some(())
         .ok_or(Err::Incomplete(Needed::new(length)))?;
@@ -104,24 +111,35 @@ fn parse_ccsds_space_packet(data: &[u8]) -> IResult<&[u8], CCSDSSpacePacket> {
 fn parse_cfe_msg_telemetry_secondary_header(
     data: &[u8],
 ) -> IResult<&[u8], CFEMSGTelemetrySecondaryHeader> {
-    let (data, time) = take(6_usize)(data)?;
-    let time = time.try_into().unwrap();
-    let cse_msg_t_s_header = CFEMSGTelemetrySecondaryHeader { time };
+    let (data, seconds) = be_u32(data)?;
+    let (data, subseconds) = be_u16(data)?;
+    let cse_msg_t_s_header = CFEMSGTelemetrySecondaryHeader {
+        seconds,
+        subseconds,
+    };
     Ok((data, cse_msg_t_s_header))
 }
 
 fn parse_ccsds_primary_header(data: &[u8]) -> IResult<&[u8], CCSDSPrimaryHeader> {
-    let (data, stream_id) = take(2_usize)(data)?;
-    let (data, sequence) = take(2_usize)(data)?;
-    let (data, length) = take(2_usize)(data)?;
+    let (data, stream_id) = be_u16(data)?;
+    let (data, sequence) = be_u16(data)?;
+    let (data, length) = be_u16(data)?;
 
-    let stream_id: [u8; 2] = stream_id.try_into().unwrap();
-    let sequence: [u8; 2] = sequence.try_into().unwrap();
-    let length: [u8; 2] = length.try_into().unwrap();
+    let application_id = get_application_id(stream_id);
+    let has_secondary_header = get_has_secondary_header(stream_id);
+    let packet_type = get_packet_type(stream_id);
+    let ccsds_v = get_ccsds_v(stream_id);
+
+    let sequence_count = get_seq_count(sequence);
+    let segmentation_flags = get_seg_flags(sequence);
 
     let ccsds_p_header = CCSDSPrimaryHeader {
-        stream_id,
-        sequence,
+        application_id,
+        has_secondary_header,
+        packet_type,
+        ccsds_v,
+        sequence_count,
+        segmentation_flags,
         length,
     };
     Ok((data, ccsds_p_header))

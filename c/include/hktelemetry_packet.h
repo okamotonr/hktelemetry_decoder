@@ -52,9 +52,10 @@ typedef struct
  *
  * This provides the definition of CFE_MSG_Message_t
  */
-typedef struct
+typedef union CFE_MSG_Message
 {
-    CCSDS_SpacePacket_t CCSDS; /**< \brief CCSDS Header (Pri or Pri + Ext) */
+    CCSDS_SpacePacket_t CCSDS;                             /**< \brief CCSDS Header (Pri or Pri + Ext) */
+    uint8               Byte[sizeof(CCSDS_SpacePacket_t)]; /**< \brief Byte level access */
 } CFE_MSG_Message_t;
 
 /**
@@ -69,10 +70,6 @@ typedef struct
 } CFE_MSG_TelemetryHeader_t;
 
 
-/**
- * \defgroup cfsdstlm CFS Data Storage Telemetry
- * \{
- */
 
 typedef struct
 {
