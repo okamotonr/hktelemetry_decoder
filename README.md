@@ -13,6 +13,10 @@ make
 ## Environment
 Linux 6.13.5-arch1-1 x86_64 GNU/Linux
 
+gcc (GCC) 14.2.1 20250207
+
+GNU C Library (GNU libc) stable release version 2.41.
+
 rustc 1.85.0 (4d91de4e4 2025-02-17)
 
 ## Links
